@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    color: #e6edf3;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #010409;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo span {
+    color: #58a6ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e6edf3;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #58a6ff;
+}
+
+/* Hero */
+.hero {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #9da7b1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #58a6ff;
+    color: #010409;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #58a6ff;
+    color: #58a6ff;
+}
+
+/* Sections */
+.section {
+    padding: 80px 10%;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 800px;
+    margin-bottom: 15px;
+    color: #9da7b1;
+}
+
+.dark {
+    background: #010409;
+}
+
+/* Cards */
+.card {
+    background: #0d1117;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.skills-grid h4 {
+    margin-bottom: 10px;
+}
+
+.skills-grid ul {
+    list-style: none;
+}
+
+.skills-grid li {
+    color: #9da7b1;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #010409;
+    color: #9da7b1;
+}
